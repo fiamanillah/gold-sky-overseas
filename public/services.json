@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "icon": "MdWork",
+        "title": "Work Visa Assistance",
+        "description": "We provide end-to-end assistance for individuals seeking work visas to establish their careers abroad. Our dedicated team ensures that all documentation is accurate and complete, guiding you through each step of the process. With years of expertise, we help you navigate complex regulations and increase your chances of approval for top global destinations.",
+        "detailsLink": "/services/work-visas"
+    },
+    {
+        "id": 2,
+        "icon": "FaGraduationCap",
+        "title": "Student Visa Guidance",
+        "description": "Pursue your education dreams with our comprehensive student visa guidance services. From selecting the right institution to preparing your visa application, we cover everything you need. Our experts provide insights into financial documentation, interviews, and compliance, ensuring a smooth path to studying at prestigious international universities.",
+        "detailsLink": "/services/student-visas"
+    },
+    {
+        "id": 3,
+        "icon": "MdCardTravel",
+        "title": "Tourist Visa Services",
+        "description": "Explore the world with ease through our tourist visa services. Whether it’s a short vacation or a family trip, we simplify the visa process by handling all the paperwork, appointment bookings, and embassy communications. Let us help you make your travel dreams come true without the stress of complicated formalities.",
+        "detailsLink": "/services/tourist-visas"
+    },
+    {
+        "id": 4,
+        "icon": "MdUpdate",
+        "title": "Visa Renewal Support",
+        "description": "Renewing or extending a visa can often be a daunting task, but we make it simple and hassle-free. Our team is equipped to handle renewals for various visa types, ensuring timely submission and compliance with all regulations. Whether you’re renewing a work, student, or tourist visa, we provide reliable support tailored to your needs.",
+        "detailsLink": "/services/visa-renewals"
+    }
+]

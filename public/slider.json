@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "backgroundImage": "sliderImages/1.jpg",
+        "headline": "Your Gateway to Work Abroad!",
+        "subheadline": "Expert Visa Consultancy Services for a Better Future.",
+        "paragraph": "Take the first step toward a brighter future. Our team of experts ensures hassle-free visa processing and guidance tailored to your unique aspirations.",
+        "ctaButtons": [
+            {
+                "text": "Get Started",
+                "link": "/visa-services"
+            },
+            {
+                "text": "Contact Us Now",
+                "link": "#contact"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "backgroundImage": "sliderImages/2.jpg",
+        "headline": "Work in Your Dream Country!",
+        "subheadline": "We Simplify Your Journey to International Employment.",
+        "paragraph": "From finding the right job to completing your visa application, we offer end-to-end solutions to help you achieve your dream of working abroad.",
+        "ctaButtons": [
+            {
+                "text": "Explore Opportunities",
+                "link": "/work-opportunities"
+            },
+            {
+                "text": "Free Consultation",
+                "link": "#consultation-form"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "backgroundImage": "sliderImages/3.jpg",
+        "headline": "Visa Services for Top Work Destinations!",
+        "subheadline": "Discover Our Services for Over 20 Countries.",
+        "paragraph": "Whether it’s Canada, Australia, or the UAE, we have specialized services for the most sought-after work destinations. Let us make your journey smooth and successful.",
+        "ctaButtons": [
+            {
+                "text": "See All Destinations",
+                "link": "/countries-served"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "backgroundImage": "sliderImages/4.jpg",
+        "headline": "Thousands of Dreams Made True!",
+        "subheadline": "Join Our List of Successful Clients Today.",
+        "paragraph": "Join thousands of satisfied clients who have started new lives and careers abroad with our help. Your success story begins with us.",
+        "ctaButtons": [
+            {
+                "text": "Read Testimonials",
+                "link": "/testimonials"
+            },
+            {
+                "text": "Start Your Journey",
+                "link": "/visa-consultation"
+            }
+        ]
+    }
+]
