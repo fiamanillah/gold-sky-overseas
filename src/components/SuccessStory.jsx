@@ -46,7 +46,7 @@ export default function SuccessStory() {
         {
             id: 5,
             name: 'Noron Nobi Ariyan',
-            location: 'Dubai',
+            location: 'Saudi Arabia',
             review: 'Working at a coffee shop in Riyadh has been an exciting and enjoyable experience. With a salary of 1600 Riyals, I’m proud of my work and love what I do every day. Thank you, Gold Sky Overseas, for helping me achieve this!',
             rating: 5,
             imgSrc: '/successStory/Noron Nobi Ariyan.jpg', // Replace with real image link
@@ -129,7 +129,11 @@ export default function SuccessStory() {
                                     <p className="text-primary">{testimonial.location}</p>
                                 </div>
 
-                                <img className='absolute w-[140px] bottom-0 right-5 opacity-30 z-0' src="/qoute.png" alt="" />
+                                <img
+                                    className="absolute w-[140px] bottom-0 right-5 opacity-30 z-0"
+                                    src="/qoute.png"
+                                    alt=""
+                                />
                             </div>
                         </SwiperSlide>
                     ))}
