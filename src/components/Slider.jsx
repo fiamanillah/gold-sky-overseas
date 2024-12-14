@@ -6,10 +6,11 @@ import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import { EffectFade, Pagination } from 'swiper/modules';
+import { Autoplay, EffectFade, Pagination } from 'swiper/modules';
 import Section from './Section';
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 export default function Slider() {
     const [sliderData, setSliderData] = useState([]);
@@ -46,8 +47,8 @@ export default function Slider() {
                     disableOnInteraction: false,
                 }}
                 pagination={{ clickable: true }}
-                modules={[EffectFade, Pagination]}
-                className="h-[80vh] rounded-3xl"
+                modules={[Autoplay, EffectFade, Pagination]}
+                className="h-[80vh] rounded-lg"
             >
                 {sliderData?.map(slide => (
                     <SwiperSlide key={slide.id} className="relative text-white">
@@ -61,7 +62,7 @@ export default function Slider() {
                         />
                         <div className="absolute inset-0 bg-gradient-to-r from-[#000000cc] from-20%">
                             <motion.div
-                                className="w-2/4 laptop-xl:w-3/4 mobile-lg:w-full h-full flex flex-col justify-center items-start gap-5 p-5"
+                                className="w-2/4 laptop-xl:w-3/4 mobile-lg:w-full h-full flex flex-col justify-center items-start gap-6 p-5"
                                 variants={containerAnimation}
                                 initial="hidden"
                                 animate="visible"
@@ -79,10 +80,15 @@ export default function Slider() {
                                     {slide.paragraph}
                                 </motion.p>
                                 <motion.button
-                                    className="btn btn-secondary"
+                                    className="btn btn-primary"
                                     variants={textAnimation}
                                 >
-                                    {slide.ctaButtons[0].text}
+                                    <Link to={slide.ctaButtons.link}>
+                                        {' '}
+                                        <span className="text-secondaryContent font-bold">
+                                            {slide.ctaButtons.text}{' '}
+                                        </span>
+                                    </Link>
                                 </motion.button>
                             </motion.div>
                         </div>

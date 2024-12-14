@@ -3,28 +3,28 @@ import { motion } from 'framer-motion';
 
 const testimonials = [
     {
-        name: 'Sara Lee',
-        role: 'Software Developer',
-        image: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png',
-        quote: 'The visa consultancy services helped me get my work visa for the UK smoothly. The team guided me through each step and answered all my questions, ensuring a seamless experience.',
+        name: 'Serajul Islam Patwary',
+        role: 'Managing Director BALTD',
+        image: '/testimonial/1.png',
+        quote: 'I have been working with Gold Sky Overseas for years, and their services are exceptional. They have consistently supported me in my work journey in Saudi Arabia!',
     },
     {
-        name: 'Michael Johnson',
-        role: 'Product Manager',
-        image: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png',
-        quote: 'Thanks to the expert advice and support from the visa consultancy, I was able to secure a job in Canada. The whole process was hassle-free and well-organized.',
+        name: 'Md. Rezuanul Haque',
+        role: 'CEO SAMSWISS',
+        image: '/testimonial/2.png',
+        quote: 'Gold Sky Overseas has been instrumental in helping me secure opportunities across Europe. Their expertise in Schengen visas and European employment is unmatched!',
     },
     {
-        name: 'Priya Sharma',
-        role: 'Data Analyst',
-        image: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png',
-        quote: 'The team helped me navigate the visa application for Australia. Their personalized approach and support made all the difference in my career move.',
+        name: 'Al-Amin Hossain',
+        role: 'Founder of Bridge Sky',
+        image: '/testimonial/3.png',
+        quote: 'My experience with Gold Sky Overseas has been fantastic. Their professionalism and dedication have made my work in Saudi Arabia smooth and successful!',
     },
     {
-        name: 'Ahmed Khan',
-        role: 'Marketing Specialist',
-        image: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png',
-        quote: 'I received exceptional guidance for securing a work visa for Germany. The visa process was explained in detail, making it much easier to understand and follow.',
+        name: 'Mamun Khan',
+        role: 'Director IOE',
+        image: '/testimonial/4.png',
+        quote: 'Gold Sky Overseas has been my trusted partner for work in Saudi Arabia, Dubai, Turkey, and Serbia. Their reliable support has made every opportunity seamless and rewarding!',
     },
 ];
 
@@ -33,6 +33,7 @@ export default function Testimonial() {
         hidden: { opacity: 0, scale: 0.8 },
         visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
     };
+
     return (
         <Section className={'relative'}>
             <div
@@ -52,7 +53,6 @@ export default function Testimonial() {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.3 }}
-
                 >
                     {testimonials.map((testimonial, index) => (
                         <figure

@@ -5,6 +5,7 @@ import AboutPage from '../pages/AboutPage';
 import ServicePage from '../pages/ServicePage';
 import ContactPage from '../pages/ContactPage';
 import ErrorPage from '../pages/ErrorPage';
+import PhotoGallery from '../pages/PhotoGallery';
 const routes = createBrowserRouter([
     {
         path: '/',
@@ -25,6 +26,10 @@ const routes = createBrowserRouter([
             {
                 path: 'contact',
                 element: <ContactPage />,
+            },
+            {
+                path: 'Gallery',
+                element: <PhotoGallery />,
             },
         ],
     },

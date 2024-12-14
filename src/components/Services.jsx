@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react';
-import { MdWork, MdCardTravel, MdUpdate } from 'react-icons/md';
-import { FaGraduationCap } from 'react-icons/fa';
-import { AiOutlinePhone } from 'react-icons/ai';
+import { MdFlight, MdAirplaneTicket, MdPlace, MdPublic } from 'react-icons/md';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import Section from './Section';
@@ -19,11 +17,10 @@ const Services = () => {
 
     // Map icons to React Icons components
     const iconMap = {
-        MdWork: <MdWork />,
-        FaGraduationCap: <FaGraduationCap />,
-        MdCardTravel: <MdCardTravel />,
-        MdUpdate: <MdUpdate />,
-        AiOutlinePhone: <AiOutlinePhone />,
+        MdFlight: <MdFlight />, // Visa Processing
+        MdAirplaneTicket: <MdAirplaneTicket />, // Air Ticketing
+        MdPlace: <MdPlace />, // Domestic Tours
+        MdPublic: <MdPublic />, // International Tours
     };
 
     // Refined card animation variants
@@ -35,8 +32,8 @@ const Services = () => {
             transition: { duration: 0.6, ease: 'easeOut' },
         },
         hover: {
-            scale: 1.02, // Slight scale up on hover
-            boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2)', // Added shadow for hover effect
+            scale: 1.02,
+            boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2)',
             transition: { duration: 0.3, type: 'spring', stiffness: 300 },
         },
     };
@@ -99,8 +96,8 @@ const Services = () => {
                             </p>
 
                             <Link
-                                className="btn mt-4 px-6 py-2 text-white bg-blue-600 rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg transition-transform transform hover:scale-105 text-sm border-none"
-                                to={service.detailsLink} // Use "to" instead of "href" for Link
+                                className="btn mt-4 px-6 py-2 text-white bg-primary rounded-full shadow-md hover:bg-primaryFocus hover:shadow-lg transition-transform transform hover:scale-105 text-sm border-none"
+                                to={service.detailsLink}
                             >
                                 Learn More
                             </Link>

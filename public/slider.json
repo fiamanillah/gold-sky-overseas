@@ -2,65 +2,45 @@
     {
         "id": 1,
         "backgroundImage": "sliderImages/1.jpg",
-        "headline": "Your Gateway to Work Abroad!",
-        "subheadline": "Expert Visa Consultancy Services for a Better Future.",
-        "paragraph": "Take the first step toward a brighter future. Our team of experts ensures hassle-free visa processing and guidance tailored to your unique aspirations.",
-        "ctaButtons": [
-            {
-                "text": "Get Started",
-                "link": "/visa-services"
-            },
-            {
-                "text": "Contact Us Now",
-                "link": "#contact"
-            }
-        ]
+        "headline": "Effortless Visa Processing!",
+        "subheadline": "Fast and Reliable Visa Services Tailored to Your Needs.",
+        "paragraph": "Take the hassle out of visa applications. Our expert team provides fast, reliable, and customized visa processing services for smooth travel planning.",
+        "ctaButtons": {
+            "text": "Get Started",
+            "link": "/services"
+        }
     },
     {
         "id": 2,
         "backgroundImage": "sliderImages/2.jpg",
-        "headline": "Work in Your Dream Country!",
-        "subheadline": "We Simplify Your Journey to International Employment.",
-        "paragraph": "From finding the right job to completing your visa application, we offer end-to-end solutions to help you achieve your dream of working abroad.",
-        "ctaButtons": [
-            {
-                "text": "Explore Opportunities",
-                "link": "/work-opportunities"
-            },
-            {
-                "text": "Free Consultation",
-                "link": "#consultation-form"
-            }
-        ]
+        "headline": "Book Your Flights with Ease!",
+        "subheadline": "Affordable Air Ticketing for Domestic and International Travel.",
+        "paragraph": "We provide the best air ticketing services, helping you find affordable flights to your desired destination. Let us take care of your travel plans.",
+        "ctaButtons": {
+            "text": "Get Started",
+            "link": "/services"
+        }
     },
     {
         "id": 3,
         "backgroundImage": "sliderImages/3.jpg",
-        "headline": "Visa Services for Top Work Destinations!",
-        "subheadline": "Discover Our Services for Over 20 Countries.",
-        "paragraph": "Whether it’s Canada, Australia, or the UAE, we have specialized services for the most sought-after work destinations. Let us make your journey smooth and successful.",
-        "ctaButtons": [
-            {
-                "text": "See All Destinations",
-                "link": "/countries-served"
-            }
-        ]
+        "headline": "Explore the Best of Bangladesh!",
+        "subheadline": "Exciting Domestic Tours for Every Traveler.",
+        "paragraph": "From the hills to the beaches, we offer curated domestic tours that will let you explore the beauty of Bangladesh with ease and comfort.",
+        "ctaButtons": {
+            "text": "Get Started",
+            "link": "/services"
+        }
     },
     {
         "id": 4,
         "backgroundImage": "sliderImages/4.jpg",
-        "headline": "Thousands of Dreams Made True!",
-        "subheadline": "Join Our List of Successful Clients Today.",
-        "paragraph": "Join thousands of satisfied clients who have started new lives and careers abroad with our help. Your success story begins with us.",
-        "ctaButtons": [
-            {
-                "text": "Read Testimonials",
-                "link": "/testimonials"
-            },
-            {
-                "text": "Start Your Journey",
-                "link": "/visa-consultation"
-            }
-        ]
+        "headline": "Your Next International Adventure Awaits!",
+        "subheadline": "Explore Top International Destinations with Our Customized Tours.",
+        "paragraph": "Plan your next international getaway with our expertly designed tours, ensuring unforgettable experiences in some of the world’s most iconic destinations.",
+        "ctaButtons": {
+            "text": "Get Started",
+            "link": "/services"
+        }
     }
 ]

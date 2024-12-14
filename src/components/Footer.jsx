@@ -1,26 +1,41 @@
 import { Link } from 'react-router-dom';
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import Section from './Section';
 import SocialIcons from './SocialIcons';
 
 export default function Footer() {
     return (
-        <Section>
-            <div className="flex justify-between py-10 mobile-lg:flex-col mobile-lg:justify-center mobile-lg:gap-10">
-                <div className="basis-1/3 flex flex-col gap-4 items-start mobile-lg:items-center">
+        <Section className={'bg-base-200'}>
+            <div className="flex justify-between py-10 mobile-lg:flex-col mobile-lg:justify-center mobile-lg:gap-10 ">
+                <div className="flex flex-col basis-1/3 items-center gap-2 order-1 mobile-lg:order-2">
+                    {/* <Link to={'/'}>About Service</Link>
+                    <Link to={'/'}>Contact Us</Link>
+                    <Link to={'/'}>Career</Link> */}
+                    <div className="flex flex-col gap-2">
+                        <div className="flex items-center gap-2 mobile-lg:justify-center">
+                            <FaPhoneAlt className="text-lg" />
+                            <span>+880 1611 116279</span>
+                        </div>
+                        <div className="flex items-center gap-2 mobile-lg:justify-center">
+                            <FaEnvelope className="text-lg" />
+                            <span>info@goldsky.com.bd</span>
+                        </div>
+                        <div className="flex items-center gap-2 mobile-lg:justify-center mobile-lg:text-center mobile-lg:px-4">
+                            <FaMapMarkerAlt className="text-lg" />
+                            <span>
+                                Level-3, Room No-408, Muktobangla Shopping Complex, Mirpur-1, Dhaka,
+                                Bangladesh
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div className="basis-1/3 flex flex-col gap-4 items-center text-center mobile-lg:items-center order-2 mobile-lg:order-1">
                     <Link to={'/'}>
                         <img className="h-16" src="/GoldSkyLogo.png" alt="" />
                     </Link>
-                    <p className="w-4/5">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, vero.
-                    </p>
+                    <h5 className="w-4/5">We turn your vision into globally</h5>
                 </div>
-                <div className="flex flex-col basis-1/3 items-center gap-2">
-                    <strong className="text-xl">About Us</strong>
-                    <Link to={'/'}>About Service</Link>
-                    <Link to={'/'}>Contact Us</Link>
-                    <Link to={'/'}>Career</Link>
-                </div>
-                <div className="basis-1/3 flex flex-col gap-4 text-right items-end mobile-lg:items-center">
+                <div className="basis-1/3 flex flex-col gap-4 text-right items-end mobile-lg:items-center order-3 mobile-lg:text-center">
                     <strong className="text-xl"> Get In Touch </strong>
                     <p>Questions or feedback? We&apos;d love to hear from you</p>
                     <SocialIcons />

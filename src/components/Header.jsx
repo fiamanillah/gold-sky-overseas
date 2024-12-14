@@ -6,7 +6,7 @@ import { IoSunny } from 'react-icons/io5';
 import { motion, useScroll, AnimatePresence } from 'framer-motion';
 import Navbar from './Navbar';
 import { useEffect, useState } from 'react';
-import { CiMenuFries } from 'react-icons/ci';
+import { IoMenu } from 'react-icons/io5';
 import { RxCross2 } from 'react-icons/rx';
 
 export default function Header() {
@@ -45,7 +45,7 @@ export default function Header() {
     return (
         <Section className="bg-base-200 sticky top-0 shadow-lg bg-opacity-70 backdrop-blur-lg z-50">
             <motion.div
-                className="progress-bar z-50 bg-secondary w-full h-1 fixed top-0 left-0 origin-left"
+                className="progress-bar z-50 bg-primary w-full h-1 fixed top-0 left-0 origin-left"
                 style={{ scaleX: scrollYProgress }}
             />
             <div className="navbar items-center ">
@@ -58,7 +58,6 @@ export default function Header() {
                     <Navbar />
                 </div>
                 <div className="navbar-end flex gap-2">
-                   
                     <button
                         className={`w-12 h-12 flex items-center justify-center no-animation rounded-full  duration-500  text-3xl ${
                             darkMode
@@ -78,7 +77,7 @@ export default function Header() {
                         {navVisible ? (
                             <RxCross2 className="pointer-events-none" />
                         ) : (
-                            <CiMenuFries className="pointer-events-none" />
+                            <IoMenu className="pointer-events-none" />
                         )}
                     </button>
                 </div>
@@ -90,7 +89,7 @@ export default function Header() {
                         animate="visible"
                         exit="hidden"
                         variants={navVariants}
-                        className="fixed bg-primary h-[300px] inset-0 top-[70px] rounded-b-2xl  overflow-hidden hidden laptop-xl:flex shadow-2xl"
+                        className="fixed bg-primaryFocus h-[400px] inset-0 top-[70px] rounded-b-2xl  overflow-hidden hidden laptop-xl:flex shadow-2xl"
                     >
                         <Navbar />
                     </motion.div>

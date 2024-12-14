@@ -8,18 +8,18 @@ import SocialIcons from './SocialIcons';
 export default function HeaderInfo() {
     return (
         <Section
-            className={'bg-secondary !py-1 bg-opacity-95 text-accentContent mobile-lg:hidden '}
+            className={'bg-primary !py-1 bg-opacity-95 text-accentContent mobile-lg:hidden '}
         >
             <div className="flex justify-between gap-3">
                 <div className="flex items-center gap-3">
                     <div className="flex items-center gap-2">
                         <FiPhone />
-                        <span> 88 0255111637 </span>
+                        <span> +880 1611 116279 </span>
                     </div>
                     <span>|</span>
                     <div className="flex items-center gap-2">
                         <MdOutlineEmail />
-                        <span> example@gmail.com </span>
+                        <span> info@goldsky.com.bd </span>
                     </div>
                 </div>
 
